@@ -1,0 +1,55 @@
+{
+  "admin": {
+    "password_hash": "efce83b0ce12eb4f1f324b713b72f74d2c99074fe2bb7696e1f23f377eaf151f",
+    "display_name": "Administrator",
+    "created_at": "2026-10-21T19:03:20.883382"
+  },
+  "researcher1": {
+    "password_hash": "84ed34fe13ce7290803c141205c46edb09adfbc14e3c942e541c435044efebb3",
+    "display_name": "Dr. Researcher",
+    "created_at": "2026-10-21T19:03:20.885472"
+  },
+  "admin@parkinova.org": {
+    "password_hash": "512cc44aea9102e3e0e06dd86e1fa0b9723eb4364e5d4c51bd965a2cc319f451",
+    "salt": "cbd79baf5c5c7690784aca864ed38542",
+    "display_name": "Dr. Administrator",
+    "role": "admin",
+    "auth_type": "local",
+    "created_at": "2026-10-25T06:32:13.115835+00:00"
+  },
+  "researcher@gmail.com": {
+    "password_hash": "512cc44aea9102e3e0e06dd86e1fa0b9723eb4364e5d4c51bd965a2cc319f451",
+    "salt": "cbd79baf5c5c7690784aca864ed38542",
+    "display_name": "Clinical Researcher",
+    "role": "researcher",
+    "auth_type": "local",
+    "created_at": "2026-10-25T06:32:13.115857+00:00"
+  },
+  "rajaa.priyann@gmail.com": {
+    "password_hash": "",
+    "salt": "",
+    "display_name": "Rajaa Priyann",
+    "role": "researcher",
+    "auth_type": "google",
+    "created_at": "2026-10-25T10:43:52.528541+00:00",
+    "picture": ""
+  },
+  "rajapriyan@gmail.com": {
+    "password_hash": "",
+    "salt": "",
+    "display_name": "Rajapriyan",
+    "role": "researcher",
+    "auth_type": "google",
+    "created_at": "2026-10-25T10:59:57.843294+00:00",
+    "picture": ""
+  },
+  "rahapriyan@gmail.com": {
+    "password_hash": "",
+    "salt": "",
+    "display_name": "Rahapriyan",
+    "role": "researcher",
+    "auth_type": "google",
+    "created_at": "2026-10-27T09:02:16.449655+00:00",
+    "picture": ""
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "application": "Parkinova Parkinson's Analysis Platform",
+  "version": "2.0.0",
+  "report_title": "Medical Assessment Report",
+  "analysis_id": "58f0b079-afb4-4dc7-be28-dc690a23e992",
+  "patient_code": "",
+  "timestamp": "2026-11-13T06:54:12.400440+00:00",
+  "patient_demographics": {
+    "age": 25,
+    "gender": "Male",
+    "responses": {
+      "memory_difficulties": {
+        "label": "Memory Difficulties",
+        "category": "Cognitive",
+        "answer": "Sometimes",
+        "value": 2
+      },
+      "concentration": {
+        "label": "Difficulty Concentrating",
+        "category": "Cognitive",
+        "answer": "Rarely",
+        "value": 1
+      },
+      "decision_making": {
+        "label": "Problems with Decision-Making",
+        "category": "Cognitive",
+        "answer": "Sometimes",
+        "value": 2
+      },
+      "mood_changes": {
+        "label": "Changes in Mood",
+        "category": "Emotional",
+        "answer": "Often",
+        "value": 3
+      },
+      "anxiety": {
+        "label": "Feelings of Anxiety",
+        "category": "Emotional",
+        "answer": "Rarely",
+        "value": 1
+      },
+      "depression": {
+        "label": "Symptoms of Depression",
+        "category": "Emotional",
+        "answer": "Often",
+        "value": 3
+      },
+      "emotional_wellbeing": {
+        "label": "Self-Reported Emotional Well-being",
+        "category": "Emotional",
+        "answer": "Sometimes",
+        "value": 2
+      },
+      "sleep_disturbances": {
+        "label": "Sleep Disturbances",
+        "category": "Sleep & Energy",
+        "answer": "Always",
+        "value": 4
+      },
+      "mental_fatigue": {
+        "label": "Mental Fatigue",
+        "category": "Sleep & Energy",
+        "answer": "Rarely",
+        "value": 1
+      },
+      "reduced_motivation": {
+        "label": "Reduced Motivation",
+        "category": "Sleep & Energy",
+        "answer": "Sometimes",
+        "value": 2
+      },
+      "daily_activities": {
+        "label": "Difficulty with Daily Activities",
+        "category": "Functional",
+        "answer": "Rarely",
+        "value": 1
+      },
+      "thinking_speed": {
+        "label": "Changes in Thinking Speed",
+        "category": "Functional",
+        "answer": "Sometimes",
+        "value": 2
+      },
+      "planning_organizing": {
+        "label": "Difficulty Planning & Organizing",
+        "category": "Functional",
+        "answer": "Rarely",
+        "value": 1
+      }
+    }
+  },
+  "mri_analysis": {
+    "status": "Completed",
+    "predicted_class": "Healthy",
+    "predicted_index": 0,
+    "raw_score": 0.9141062498092651,
+    "model_name": "parkinson_cnn",
+    "image_filename": "ep2d_diff_3scan_trace_p2_ADC_DFC_009.png",
+    "preprocessing_info": {
+      "original_size": [
+        192,
+        192
+      ],
+      "original_mode": "L",
+      "target_size": [
+        244,
+        244
+      ],
+      "normalized": false,
+      "dtype": "float32",
+      "batch_shape": [
+        1,
+        244,
+        244,
+        3
+      ]
+    },
+    "explanation": "The CNN deep learning model did not detect distinctive Parkinson's-associated patterns in the analyzed MRI scan compared to the reference control dataset. This experimental finding does not rule out early-stage disease, atypical parkinsonism, or other neurological conditions."
+  },
+  "spiral_analysis": {
+    "status": "Completed (Model Prediction)",
+    "model_prediction": "Spiral drawing shows motor irregularities correlated with Parkinsonian tremor patterns",
+    "raw_score": 0.9999983310699463,
+    "observations": {
+      "dimensions": "256 \u00d7 256 pixels",
+      "aspect_ratio": "1.0:1",
+      "stroke_density_pct": 11.5,
+      "canvas_style": "Light background (paper / digital canvas)",
+      "contrast_range": 228.0,
+      "file_size_kb": 75.6,
+      "Model Status": "YOLO Model Active (best)",
+      "Input Resolution": "224x224 px",
+      "Predicted Class": "Parkinson"
+    },
+    "image_filename": "Parkinson8.png"
+  },
+  "regulatory_notice": "Academic research prototype. Not for clinical diagnosis."
+}

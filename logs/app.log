@@ -1,0 +1,57 @@
+2026-11-13 12:10:27,424 [INFO] parkinova.main: Launching Parkinova v2.0.0
+2026-11-13 12:10:27,567 [INFO] app.database: Connected to database: C:\CODE\parkinova\data\parkinova_history.db
+2026-11-13 12:10:27,568 [INFO] parkinova.main: Background thread loading model from: C:\Users\Raj Priyan\Parkinson disease\Parkinson-2000.keras
+2026-11-13 12:10:27,570 [ERROR] parkinova.main: Background model loading failed: No module named 'utils'
+2026-11-13 12:10:28,874 [INFO] parkinova.main: Parkinova desktop application initialized in 1.822 s; login presented first
+2026-11-13 12:10:30,467 [INFO] app.auth: Session created for user: admin@parkinova.org (expires: 2026-11-14T06:40:30.467277+00:00)
+2026-11-13 12:10:30,467 [INFO] app.login: Authentication succeeded: admin@parkinova.org (Dr. Administrator)
+2026-11-13 12:10:30,520 [INFO] parkinova.main: User signed in: admin@parkinova.org (Dr. Administrator)
+2026-11-13 12:10:30,614 [INFO] parkinova.main: Dashboard presented in 93.92 ms after login
+2026-11-13 12:10:38,263 [INFO] parkinova.spiral: Loaded YOLO spiral model from C:\Users\Raj Priyan\Parkinson disease\runs\classify\Parkinson_YOLO26\Spiral_Classification-2\weights\best.pt | classes={0: 'Healthy', 1: 'Parkinson'}
+2026-11-13 12:10:56,792 [INFO] parkinova.spiral: Loaded YOLO spiral model from C:\Users\Raj Priyan\Parkinson disease\runs\classify\Parkinson_YOLO26\Spiral_Classification-2\weights\best.pt | classes={0: 'Healthy', 1: 'Parkinson'}
+2026-11-13 12:10:58,044 [INFO] parkinova.main: Background thread loading model from: C:\Users\Raj Priyan\Parkinson disease\Parkinson-2000.keras
+2026-11-13 12:10:58,046 [ERROR] parkinova.main: Background model loading failed: No module named 'utils'
+2026-11-13 12:11:17,184 [INFO] parkinova.main: Background thread loading model from: C:/CODE/parkinova/models/Parkinson-2000.keras
+2026-11-13 12:11:17,184 [ERROR] parkinova.main: Background model loading failed: No module named 'utils'
+2026-11-13 12:11:38,745 [INFO] app.database: Database connection closed.
+2026-11-13 12:23:01,424 [INFO] parkinova.main: Launching Parkinova v2.0.0
+2026-11-13 12:23:01,658 [INFO] app.database: Connected to database: C:\CODE\parkinova\data\parkinova_history.db
+2026-11-13 12:23:01,659 [INFO] parkinova.main: Background thread loading model from: C:\Users\Raj Priyan\Parkinson disease\Parkinson-2000.keras
+2026-11-13 12:23:01,781 [INFO] utils.model_loader: Loading model from: C:\Users\Raj Priyan\Parkinson disease\Parkinson-2000.keras (format: .keras)
+2026-11-13 12:23:02,798 [INFO] parkinova.main: Parkinova desktop application initialized in 1.629 s; login presented first
+2026-11-13 12:23:07,075 [WARNING] tensorflow: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-11-13 12:23:09,078 [INFO] utils.model_loader: Keras model loaded | input=(244, 244, 3) | outputs=2 | normalize=False
+2026-11-13 12:23:09,079 [INFO] utils.preprocessing: ImagePreprocessor ready | target=(244, 244) | normalize=False
+2026-11-13 12:23:09,079 [INFO] app.inference: InferenceEngine initialized | is_tflite=False | labels=['Healthy', "Parkinson's"]
+2026-11-13 12:23:09,079 [INFO] parkinova.main: Model successfully initialized in 7.42 s
+2026-11-13 12:23:09,747 [INFO] app.auth: Session created for user: rajapriyan@gmail.com (expires: 2026-11-14T06:53:09.747103+00:00)
+2026-11-13 12:23:09,747 [INFO] app.login: Authentication succeeded: rajapriyan@gmail.com (Rajapriyan)
+2026-11-13 12:23:09,785 [INFO] parkinova.main: User signed in: rajapriyan@gmail.com (Rajapriyan)
+2026-11-13 12:23:09,855 [INFO] parkinova.main: Dashboard presented in 69.81 ms after login
+2026-11-13 12:23:19,056 [INFO] parkinova.spiral: Loaded YOLO spiral model from C:\Users\Raj Priyan\Parkinson disease\runs\classify\Parkinson_YOLO26\Spiral_Classification-2\weights\best.pt | classes={0: 'Healthy', 1: 'Parkinson'}
+2026-11-13 12:23:54,104 [INFO] app.patient_form: Patient assessment completed: age=25, answered=13/13 questions
+2026-11-13 12:24:12,936 [INFO] app.inference: Analysis complete for 'ep2d_diff_3scan_trace_p2_ADC_DFC_009.png' -> Healthy (index 0)
+2026-11-13 12:24:12,937 [INFO] parkinova.main: Inference completed in 0.537 s
+2026-11-13 12:24:12,950 [INFO] app.database: Saved analysis record id=58f0b079-afb4-4dc7-be28-dc690a23e992
+2026-11-13 12:24:12,957 [WARNING] app.results: Could not render MRI thumbnail: 'ImagePreprocessor' object has no attribute 'array_to_display_image'
+2026-11-13 12:24:13,367 [WARNING] app.results: Could not render MRI thumbnail: 'ImagePreprocessor' object has no attribute 'array_to_display_image'
+2026-11-13 12:24:24,476 [WARNING] app.results: Could not render MRI thumbnail: 'ImagePreprocessor' object has no attribute 'array_to_display_image'
+2026-11-13 12:24:35,228 [INFO] app.reports: Combined PDF report successfully compiled at 'C:/CODE/parkinova/reports/new.pdf'
+2026-11-13 12:24:51,384 [INFO] app.reports: Combined PDF report successfully compiled at 'C:\Users\RAJPRI~1\AppData\Local\Temp\Parkinova_Print_58f0b079.pdf'
+2026-11-13 12:33:17,421 [INFO] app.database: Database connection closed.
+2026-11-13 12:33:43,257 [INFO] parkinova.main: Launching Parkinova v2.0.0
+2026-11-13 12:33:43,467 [INFO] app.database: Connected to database: C:\CODE\parkinova\data\parkinova_history.db
+2026-11-13 12:33:43,471 [INFO] parkinova.main: Background thread loading model from: C:\Users\Raj Priyan\Parkinson disease\Parkinson-2000.keras
+2026-11-13 12:33:43,682 [INFO] utils.model_loader: Loading model from: C:\Users\Raj Priyan\Parkinson disease\Parkinson-2000.keras (format: .keras)
+2026-11-13 12:33:45,769 [INFO] parkinova.main: Parkinova desktop application initialized in 2.868 s; login presented first
+2026-11-13 12:33:47,715 [INFO] app.auth: Session created for user: admin@parkinova.org (expires: 2026-11-14T07:03:47.715840+00:00)
+2026-11-13 12:33:47,716 [INFO] app.login: Authentication succeeded: admin@parkinova.org (Dr. Administrator)
+2026-11-13 12:33:47,798 [INFO] parkinova.main: User signed in: admin@parkinova.org (Dr. Administrator)
+2026-11-13 12:33:47,894 [INFO] parkinova.main: Dashboard presented in 95.47 ms after login
+2026-11-13 12:33:52,759 [WARNING] tensorflow: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-11-13 12:33:54,170 [INFO] utils.model_loader: Keras model loaded | input=(244, 244, 3) | outputs=2 | normalize=False
+2026-11-13 12:33:54,171 [INFO] utils.preprocessing: ImagePreprocessor ready | target=(244, 244) | normalize=False
+2026-11-13 12:33:54,171 [INFO] app.inference: InferenceEngine initialized | is_tflite=False | labels=['Healthy', "Parkinson's"]
+2026-11-13 12:33:54,171 [INFO] parkinova.main: Model successfully initialized in 10.70 s
+2026-11-13 12:33:57,840 [INFO] parkinova.spiral: Loaded YOLO spiral model from C:\Users\Raj Priyan\Parkinson disease\runs\classify\Parkinson_YOLO26\Spiral_Classification-2\weights\best.pt | classes={0: 'Healthy', 1: 'Parkinson'}
+2026-11-13 12:34:06,588 [INFO] app.database: Database connection closed.
